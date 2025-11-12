@@ -22,6 +22,7 @@ export default function ExpertiseSection({ items }) {
           height: 5,
           mx: "auto",
           background: "linear-gradient(90deg, #ff5f2e 0%, rgba(255,95,46,0) 100%)",
+          mb:2,
 
 
         }}
