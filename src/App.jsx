@@ -1,4 +1,4 @@
-import { Box, CssBaseline, Container } from "@mui/material";
+import { Box, CssBaseline, } from "@mui/material";
 import Work from "./Components/work";
 import ProjectCard from "./Components/Projectcard";
 import ExpertiseSection from "./Components/Expertisesection";
@@ -171,32 +171,24 @@ export default function App() {
         "FOOD RESTAURANT",
       description: "The KFC delivery store app enhances operational efficiency and streamlines order management, ensuring smooth operations and customer satisfaction for the KFC business."
     },
-    
+
   ];
 
   return (
     <>
       <CssBaseline />
-      <Box sx={{ }}>
-        <Container
-          maxWidth={false}
-          sx={{
-            maxWidth: "1521px", 
-            px: { xs: 0, sm: 0, md: 0 }, 
-            
-          }}
-        >
-          <Work />
-          {projects.map((project, index) => (
-            <ProjectCard
-              key={index}
-              project={project}
-              direction={index % 2 === 0 ? "image-left" : "image-right"}
-            />
-          ))}
-          <ExpertiseSection items={expertiseItems} />
-        </Container>
-      </Box>
+
+      <Work />
+      {projects.map((project, index) => (
+        <ProjectCard
+          key={index}
+          project={project}
+          direction={index % 2 === 0 ? "image-left" : "image-right"}
+        />
+      ))}
+      <ExpertiseSection items={expertiseItems} />
+
+
     </>
   );
 }
