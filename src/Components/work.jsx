@@ -6,7 +6,7 @@ export default function Work() {
       sx={{
         backgroundColor: "#182F63",
         color: "white",
-        px: { xs: 2, md: 0 },
+        px: { xs: 2,sm:0, md: 0 },
         py: 7,
         textAlign: { xs: "start", sm: "left" },
       }}

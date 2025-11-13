@@ -30,7 +30,7 @@ import kfc from "./assets/kfc.webp"
 export default function App() {
   const projects = [
     {
-      projectTitle: "ifinca",
+      title: "ifinca",
       bgImage: ifincaBg,
       overlayImage: ifinca,
       bgColor: "#317062",
@@ -46,7 +46,7 @@ export default function App() {
       tags: ["Supply chain", "Hyperledger Fabric", "Blockchain"],
     },
     {
-      projectTitle: "Integra Ledger",
+      title: "Integra Ledger",
       bgImage: integraBg,
       overlayImage: ifinca,
       bgColor: "#182F63",
@@ -61,7 +61,7 @@ export default function App() {
       tags: ["Legal consortium", "Hyperledger Blockchain", "Web platform"],
     },
     {
-      projectTitle: "Friendspire",
+      title: "Friendspire",
       bgImage: friendspireBg,
       overlayImage: ifinca,
       bgColor: "#653fee",
@@ -76,7 +76,7 @@ export default function App() {
       tags: ["Social networking", "iPhone", "Android"],
     },
     {
-      projectTitle: "Unique School",
+      title: "Unique School",
       bgImage: uniqueSchool,
       overlayImage: ifinca,
       bgColor: "#173f58",
@@ -91,7 +91,7 @@ export default function App() {
       tags: ["Education", "Web platform", "Mobile apps"],
     },
     {
-      projectTitle: "Cimet",
+      title: "Cimet",
       bgImage: cimet,
       overlayImage: ifinca,
       bgColor: "#1d4578",
