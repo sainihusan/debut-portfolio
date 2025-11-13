@@ -29,24 +29,17 @@ export default function Projectcard({ project, direction }) {
                     left:
                         direction === "image-right"
                             ? { xs: "0px", md: "60px" }
-                            : { xs: "0px", md: "30px" },
+                            : { xs: "0px", md: "30px", },
+
                     zIndex: 2,
 
                 }}
             >
-                <Container
+                <Container maxWidth="md"
                     sx={{
-                        px: { md: 0, lg: 0 },
-                        "@media (min-width:1630px)": {
-                            px: 50,
-                            position:"relative",
-                            left:
-                        direction === "image-right"
-                            ? { xs: "0px", md: "-94px" }
-                            : { xs: "0px", md: "61px" },
-                        },
-                    }}
-                >
+                        px: { md: 0, sm: 3, },
+                    }}>
+
                     <Typography
                         sx={{
                             fontWeight: "bold",
@@ -154,21 +147,22 @@ export default function Projectcard({ project, direction }) {
                         View Case Study
                     </Button>
                 </Container>
+
+
+                <Box
+                    component="img"
+                    src={project.overlayImage}
+                    alt={`${project.projectTitle} overlay`}
+                    sx={{
+                        display: { xs: "block", md: "none" },
+                        mt: 2,
+                        width: { xs: "220px" },
+                        height: "auto",
+                        alignSelf: "center",
+                    }}
+                />
+
             </Box>
-            <Box
-                component="img"
-                src={project.overlayImage}
-                alt={`${project.projectTitle} overlay`}
-                sx={{
-                    display: { xs: "block", md: "none" },
-                    mt: 2,
-                    width: { xs: "220px" },
-                    height: "auto",
-                    alignSelf: "center",
-                }}
-            />
-
-
 
             <Box
                 component="img"
@@ -176,7 +170,7 @@ export default function Projectcard({ project, direction }) {
                 alt={`${project.projectTitle} background`}
                 sx={{
                     flex: 1,
-                   
+
                     justifyContent: "center",
                     alignItems: "center",
                     overflow: "hidden",
@@ -200,8 +194,8 @@ export default function Projectcard({ project, direction }) {
                     top: "60%",
                     left:
                         direction === "image-right"
-                            ? { xs: "50%", sm: "43%", md: "43%", lg:"47%" }
-                            : { xs: "50%", sm: "52%", md: "59%", lg: "55%",xl:"53.5%" },
+                            ? { xs: "50%", sm: "43%", md: "43%", lg: "47%" }
+                            : { xs: "50%", sm: "52%", md: "59%", lg: "55%", xl: "53.5%" },
                     transform: "translate(-55%, -56%)",
                     width: { md: "200px" },
                     height: "auto",
