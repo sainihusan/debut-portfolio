@@ -40,7 +40,10 @@ export default function Projectcard({ project, direction }) {
                         "@media (min-width:1630px)": {
                             px: 50,
                             position:"relative",
-                            left:"58px"
+                            left:
+                        direction === "image-right"
+                            ? { xs: "0px", md: "-94px" }
+                            : { xs: "0px", md: "61px" },
                         },
                     }}
                 >
@@ -197,8 +200,8 @@ export default function Projectcard({ project, direction }) {
                     top: "60%",
                     left:
                         direction === "image-right"
-                            ? { xs: "50%", sm: "48%", md: "45%" }
-                            : { xs: "50%", sm: "52%", md: "60%", lg: "55%" },
+                            ? { xs: "50%", sm: "43%", md: "43%", lg:"47%" }
+                            : { xs: "50%", sm: "52%", md: "59%", lg: "55%",xl:"53.5%" },
                     transform: "translate(-55%, -56%)",
                     width: { md: "200px" },
                     height: "auto",
