@@ -173,7 +173,7 @@ export default function Projectcard({ project, direction }) {
                 alt={`${project.projectTitle} background`}
                 sx={{
                     flex: 1,
-                    display: "flex",
+                   
                     justifyContent: "center",
                     alignItems: "center",
                     overflow: "hidden",

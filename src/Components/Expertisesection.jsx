@@ -155,6 +155,7 @@ export default function ExpertiseSection({ items }) {
                       maxHeight: 0,
                       overflow: "hidden",
                       transition: "all 0.4s ease",
+                      mb:1,
                     }}
                   >
                     {item.description}
