@@ -10,9 +10,7 @@ import integraBg from "./assets/integra-bg.webp";
 import friendspireBg from "./assets/friendspire-bg.webp";
 import uniqueSchool from "./assets/uniqueschool-bg.webp";
 import cimet from "./assets/cimet-bg.webp";
-
 import nordicStrong from "./assets/Nordic-strong.webp";
-import uniqueSchoolBg from "./assets/uniqueschool-bg.webp";
 import nordicLogo from "./assets/nordic-strong-logo.webp";
 import propawn from "./assets/propawn.webp";
 import propawnLogo from "./assets/propawn-logo.webp";
