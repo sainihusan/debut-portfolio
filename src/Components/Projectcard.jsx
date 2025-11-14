@@ -12,7 +12,7 @@ export default function Projectcard({ project, direction }) {
                 sx={{
                     position: "absolute",
                     top: 0,
-                    [isRight ? "right" : "left"]: 0,
+                    [isRight ? "right" : "left"]:0,
                     width: "50%",
                     height: "100%",
                     objectFit: "cover",
@@ -82,7 +82,7 @@ export default function Projectcard({ project, direction }) {
                             ))}
                         </Box>
 
-                        <Stack direction="row" flexWrap="wrap" spacing={1} mb={3}>
+                        <Stack direction="row" flexWrap="wrap" spacing={1} mb={3} gap={1}>
                             {project.tags.map((tag, i) => (
                                 <Chip
                                     key={i}

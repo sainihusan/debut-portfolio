@@ -59,7 +59,7 @@ export default function ExpertiseSection({ items }) {
               gridAutoRows: "1fr",
               gap: 2,
               width: { xs: "95%", sm: "90%", md: "87%" },
-              mx: "auto",
+             
               position: "relative",
             }}
 

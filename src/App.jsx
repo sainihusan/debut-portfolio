@@ -119,14 +119,14 @@ export default function App() {
       title: "Nordic Strong",
       subtitle: "BOUTIQUE FITNESS APP",
       description:
-        "A complete fitness app offering high-quality workout tracking and coaching.",
+        "With a range of training programs, equipment, and resources, Nordic Strong fosters a supportive community, empowering users to achieve their fitness goals.",
     },
     {
       bgImage: propawn,
       logo: propawnLogo,
       title: "Propawn",
       subtitle: "DIGITAL PAWNSHOP",
-      description: "A modern pawnshop experience for buying and loaning items.",
+      description: "With the aim of delivering a convenient pawnshop experience, Propawn allows customers to explore and buy a wide range of items while accessing collateral-based loans.",
     },
     {
       bgImage: silverSky,
@@ -134,7 +134,7 @@ export default function App() {
       title: "Blockchain Integration",
       subtitle: "SALON BOOKING SYSTEM",
       description:
-        "A smart appointment booking platform for salons and clients.",
+        "With its user-friendly interface and efficient scheduling tools, it optimizes operations for salon owners while providing a seamless and personalized booking experience for clients.",
     },
     {
       bgImage: tem,
@@ -142,7 +142,7 @@ export default function App() {
       title: "Tem",
       subtitle: "HEALTH IMPROVEMENT APP",
       description:
-        "Helps users track fitness, nutrition, stress, and healthy habits.",
+        "TEM provides personalized tools and resources for tracking fitness activities, monitoring nutrition, managing stress, and fostering healthy habits.",
     },
     {
       bgImage: collectionaries,
@@ -150,7 +150,7 @@ export default function App() {
       title: "Collectionaire",
       subtitle: "MEMORY COLLECTION PLATFORM",
       description:
-        "A digital platform to preserve and organize memories and documents.",
+        "Collectionaire is an online platform that simplifies and organizes personal collections. It allows users to digitally catalog and preserve valuable items, memories, and documents",
     },
     {
       bgImage: openkey,
@@ -158,7 +158,7 @@ export default function App() {
       title: "OpenKey",
       subtitle: "DIGITAL HOTEL KEY",
       description:
-        "Smart key solution for hotels offering seamless and secure access.",
+        "OpenKey is a hotel access management solution. It enables hotels to provide digital keys to guests through their smartphones, enhancing convenience and security.",
     },
     {
       bgImage: hdfc,
@@ -166,7 +166,7 @@ export default function App() {
       title: "HDFC Life Insta Sales",
       subtitle: "DIGITAL INSURANCE APP",
       description:
-        "Simplifies insurance sales with premium calculation and product showcase.",
+        "The HDFC Life Insta simplifies the insurance sales process, providing a seamless digital platform to showcase products, calculate premiums, and facilitate customer interactions.",
     },
     {
       bgImage: kfc,
@@ -174,7 +174,7 @@ export default function App() {
       title: "KFC Delivery Store App",
       subtitle: "FOOD RESTAURANT",
       description:
-        "Helps KFC teams manage orders smoothly and improve efficiency.",
+        "The KFC delivery store app enhances operational efficiency and streamlines order management, ensuring smooth operations and customer satisfaction for the KFC business.",
     },
   ];
 
