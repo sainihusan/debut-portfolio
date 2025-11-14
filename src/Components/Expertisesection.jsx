@@ -24,13 +24,10 @@ export default function ExpertiseSection({ items }) {
             mx: "auto",
             background: "linear-gradient(90deg, #ff5f2e 0%, rgba(255,95,46,0) 100%)",
             mb: 2,
-
-
           }}
         />
         <Box
         >
-
           <Typography
             sx={{
               textAlign: "center",
@@ -46,8 +43,6 @@ export default function ExpertiseSection({ items }) {
             These projects reflect our commitment to delivering exceptional digital
             solutions.
           </Typography>
-
-
           <Box
             sx={{
               display: "grid",
@@ -58,11 +53,10 @@ export default function ExpertiseSection({ items }) {
               },
               gridAutoRows: "1fr",
               gap: 2,
-              width: { xs: "95%", sm: "90%", md: "87%" },
-             
+              width: { xs: "100%", sm: "90%", md: "87%" },
+              mx: "auto",
               position: "relative",
             }}
-
           >
             {items.map((item, index) => (
               <Box
@@ -83,7 +77,6 @@ export default function ExpertiseSection({ items }) {
 
                 }}
               >
-
                 <Box
                   component="img"
                   src={item.logo}
@@ -98,8 +91,6 @@ export default function ExpertiseSection({ items }) {
 
                   }}
                 />
-
-
                 <Box
                   sx={{
                     position: "relative",
@@ -122,7 +113,6 @@ export default function ExpertiseSection({ items }) {
                     },
                   }}
                 >
-
                   <Typography
                     variant="h6"
                     sx={{
@@ -132,7 +122,6 @@ export default function ExpertiseSection({ items }) {
                   >
                     {item.title}
                   </Typography>
-
 
                   <Typography
                     variant="body2"
@@ -145,7 +134,6 @@ export default function ExpertiseSection({ items }) {
                     {item.subtitle}
                   </Typography>
 
-
                   <Typography
                     className="description"
                     variant="body2"
@@ -155,14 +143,12 @@ export default function ExpertiseSection({ items }) {
                       maxHeight: 0,
                       overflow: "hidden",
                       transition: "all 0.4s ease",
-                      mb:1,
+                      mb: 1,
                     }}
                   >
                     {item.description}
                   </Typography>
                 </Box>
-
-
               </Box>
             ))}
           </Box>
